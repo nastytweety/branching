@@ -10,7 +10,9 @@ namespace branching
     {
         static void Main(string[] args)
         {
-
+            var student = new student("george");
+            Console.WriteLine($"Hello World!from {student}");
+            Console.Read();
         }
     }
 }
